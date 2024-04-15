@@ -1,0 +1,544 @@
+<!doctype html>
+<html lang="en" data-bs-theme="dark">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🧐</text></svg>">
+    
+    
+  <title>2024/04/10</title>
+  
+    <link rel="prev" href="../../2024/04/09.html" title="2024&#x2F;04&#x2F;09" />
+  
+  
+    <link rel="next" href="../../2024/04/11.html" title="2024&#x2F;04&#x2F;11" />
+  
+
+
+    <link rel="base" href="..&#x2F;.." title="Base" />
+    <link rel="top" href="../../index.html" title="Index" />
+
+    <link href="../../pagefind/pagefind-ui.css" rel="stylesheet">
+    <script src="../../pagefind/pagefind-ui.js" type="text/javascript"></script>
+
+    <script src="../../vendor/timeago.min.js" type="text/javascript"></script>
+
+    <link href="../../index.css" rel="stylesheet">
+    <script src="../../index.js" type="module"></script>
+  </head>
+  <body class="fossilizer">
+
+    <archive-nav>
+      <section>
+        <details class="menu">
+          <summary>Menu</summary>
+          <section>
+            <archive-nav-date-selector></archive-nav-date-selector>
+            <archive-activity-list-controls for="main-list">
+              <label>
+                <input type="checkbox" name="grid" />
+                Grid layout
+              </label>
+              <label>
+                <input type="checkbox" name="relative-time" />
+                Relative time
+              </label>
+            </archive-activity-list-controls>
+            <theme-selector>
+              <button>
+                <span class="icon light">🌞 Light theme</span>
+                <span class="icon dark">🌚 Dark theme</span>
+              </button>
+            </theme-selector>
+          </section>
+        </details>
+        <archive-nav-search></archive-nav-search>
+      </section>
+    </archive-nav>
+
+    <archive-main>
+      <lazy-load-observer>
+        <formatted-time-context>
+          <media-lightbox-context>
+            
+  <archive-activity-list id="main-list" data-pagefind-body data-pagefind-meta="title:2024/04/10">
+    <archive-activity-list-contents>
+      
+        <archive-activity id="6c1bcc330cbcc4ec7bb71ead3f36fceb5107f4a818b31e9cfa4a5bcfe681197e">
+  <div class="header">
+    <h3 class="published" id="anchor-6c1bcc330cbcc4ec7bb71ead3f36fceb5107f4a818b31e9cfa4a5bcfe681197e"><a href="https:&#x2F;&#x2F;hackers.town&#x2F;@lmorchard&#x2F;112245103356789005" target="_blank"><time is="formatted-time" data-pagefind-meta="title" datetime="2024-04-10T04:45:55.419Z" title="2024-04-10T04:45:55.419Z">2024-04-10T04:45:55.419Z</time></a><a href="#anchor-6c1bcc330cbcc4ec7bb71ead3f36fceb5107f4a818b31e9cfa4a5bcfe681197e">#</a>
+    </h3>
+    <div class="title">Les Orchard</div>
+    <div class="subtitle">@<a href="https://hackers.town/@lmorchard" target="_blank">https:&#x2F;&#x2F;hackers.town&#x2F;@lmorchard</a></div>
+    <a class="avatar" href="https://hackers.town/@lmorchard" target="_blank"><img src="../../media/acc0bb231a7a2757c7e5c63aa68ce3cdbcfd32a43eb67a6bdedffe173c721184/avatar.png" width="48" height="48" /></a>
+  </div>
+  <div class="body">
+    <div class="text"><div class="summary">long activitypub question</div><p>Here's a weird, maybe misguided ActivityPub protocol question:</p><p>Let's say I have an Thermometer actor that honors Follow activity messages.</p><p>Would it be weird if that Thermometer later sent off different activities depending on the type of Actor that had followed?</p><p>Let's say that Person actors receive Create Note activities - e.g. a natural language description of current temperature, essentially compatible with Mastodon statuses.</p><p>But, say there's an extended actor type called WeatherMonitor. </p><p>Imagine that it instead receives Create TemperatureRecord activities from the Thermometer. The TemperatureRecord object type would be a richer data schema than Note - e.g. suitable for insertion into a temperature time series database.</p><p>So, in a nutshell, different representations of the same underlying data for different kinds of following actors meant for different end use cases.</p><p>Would that be... problematic?</p></div></div>
+</archive-activity>
+
+      
+        <archive-activity id="bdb4b1ce5788a4f436093bdeba39b7eac22accf6d225c857a0acce9c6dcc668b">
+  <div class="header">
+    <h3 class="published" id="anchor-bdb4b1ce5788a4f436093bdeba39b7eac22accf6d225c857a0acce9c6dcc668b"><a href="https:&#x2F;&#x2F;hackers.town&#x2F;@lmorchard&#x2F;112245117287572902" target="_blank"><time is="formatted-time" data-pagefind-meta="title" datetime="2024-04-10T04:49:27.985Z" title="2024-04-10T04:49:27.985Z">2024-04-10T04:49:27.985Z</time></a><a href="#anchor-bdb4b1ce5788a4f436093bdeba39b7eac22accf6d225c857a0acce9c6dcc668b">#</a>
+    </h3>
+    <div class="title">Les Orchard</div>
+    <div class="subtitle">@<a href="https://hackers.town/@lmorchard" target="_blank">https:&#x2F;&#x2F;hackers.town&#x2F;@lmorchard</a></div>
+    <a class="avatar" href="https://hackers.town/@lmorchard" target="_blank"><img src="../../media/acc0bb231a7a2757c7e5c63aa68ce3cdbcfd32a43eb67a6bdedffe173c721184/avatar.png" width="48" height="48" /></a>
+  </div>
+  <div class="body">
+    <div class="text"><div class="summary">re: long activitypub question</div><p>I think I'm kind of looking for an analogous feature to the HTTP <code>Accept</code> header, except in ActivityPub?</p><p>Maybe rather than special Actor types, it should be some extended property of the Follow activity? (i.e. "actor is requesting to follow specifically for TemperatureRecord activities")</p></div></div>
+</archive-activity>
+
+      
+        <archive-activity id="9f9b9b3dd38e23e27ac9c1f3b4d9a8332025d65b37cd090d44fa8b226e067b36">
+  <div class="header">
+    <h3 class="published" id="anchor-9f9b9b3dd38e23e27ac9c1f3b4d9a8332025d65b37cd090d44fa8b226e067b36"><a href="https:&#x2F;&#x2F;hackers.town&#x2F;@lmorchard&#x2F;112245146622917571" target="_blank"><time is="formatted-time" data-pagefind-meta="title" datetime="2024-04-10T04:56:55.609Z" title="2024-04-10T04:56:55.609Z">2024-04-10T04:56:55.609Z</time></a><a href="#anchor-9f9b9b3dd38e23e27ac9c1f3b4d9a8332025d65b37cd090d44fa8b226e067b36">#</a>
+    </h3>
+    <div class="title">Les Orchard</div>
+    <div class="subtitle">@<a href="https://hackers.town/@lmorchard" target="_blank">https:&#x2F;&#x2F;hackers.town&#x2F;@lmorchard</a></div>
+    <a class="avatar" href="https://hackers.town/@lmorchard" target="_blank"><img src="../../media/acc0bb231a7a2757c7e5c63aa68ce3cdbcfd32a43eb67a6bdedffe173c721184/avatar.png" width="48" height="48" /></a>
+  </div>
+  <div class="body">
+    <div class="text"><div class="summary">re: long activitypub question</div><p><span class="h-card" translate="no"><a href="https://mastodon.chriswiegman.com/@chris" class="u-url mention" rel="nofollow noopener noreferrer" target="_blank">@<span>chris</span></a></span> Yeah, you can add properties to an existing object type like Note - castling.club does this to add chess move metadata to what otherwise looks like a plain old toot</p><p><a href="https://github.com/stephank/castling.club/blob/3530d01c3735ccb07fa458afce9d06700ca24f0d/src/front/game.ts#L329-L360" target="_blank" rel="nofollow noopener noreferrer" translate="no"><span class="invisible">https://</span><span class="ellipsis">github.com/stephank/castling.c</span><span class="invisible">lub/blob/3530d01c3735ccb07fa458afce9d06700ca24f0d/src/front/game.ts#L329-L360</span></a></p></div></div>
+</archive-activity>
+
+      
+        <archive-activity id="6816c894203d0c620551ef5b216cefadaff253cf37f7e13202a57055ed3f58eb">
+  <div class="header">
+    <h3 class="published" id="anchor-6816c894203d0c620551ef5b216cefadaff253cf37f7e13202a57055ed3f58eb"><a href="https:&#x2F;&#x2F;hackers.town&#x2F;@lmorchard&#x2F;112245177973739129" target="_blank"><time is="formatted-time" data-pagefind-meta="title" datetime="2024-04-10T05:04:53.984Z" title="2024-04-10T05:04:53.984Z">2024-04-10T05:04:53.984Z</time></a><a href="#anchor-6816c894203d0c620551ef5b216cefadaff253cf37f7e13202a57055ed3f58eb">#</a>
+    </h3>
+    <div class="title">Les Orchard</div>
+    <div class="subtitle">@<a href="https://hackers.town/@lmorchard" target="_blank">https:&#x2F;&#x2F;hackers.town&#x2F;@lmorchard</a></div>
+    <a class="avatar" href="https://hackers.town/@lmorchard" target="_blank"><img src="../../media/acc0bb231a7a2757c7e5c63aa68ce3cdbcfd32a43eb67a6bdedffe173c721184/avatar.png" width="48" height="48" /></a>
+  </div>
+  <div class="body">
+    <div class="text"><div class="summary">re: long activitypub question</div><p><span class="h-card" translate="no"><a href="https://mastodon.social/@by_caballero" class="u-url mention" rel="nofollow noopener noreferrer" target="_blank">@<span>by_caballero</span></a></span> Yeah, I guess that's the interop I want... default to sending out more common Note objects, unless a follower specifically requested a different kind of object</p></div></div>
+</archive-activity>
+
+      
+        <archive-activity id="bec986eba203b16deb539c8d77e90491eb243309634e4818a156ac1fbf99202d">
+  <div class="header">
+    <h3 class="published" id="anchor-bec986eba203b16deb539c8d77e90491eb243309634e4818a156ac1fbf99202d"><a href="https:&#x2F;&#x2F;hackers.town&#x2F;@lmorchard&#x2F;112245183707352636" target="_blank"><time is="formatted-time" data-pagefind-meta="title" datetime="2024-04-10T05:06:21.473Z" title="2024-04-10T05:06:21.473Z">2024-04-10T05:06:21.473Z</time></a><a href="#anchor-bec986eba203b16deb539c8d77e90491eb243309634e4818a156ac1fbf99202d">#</a>
+    </h3>
+    <div class="title">Les Orchard</div>
+    <div class="subtitle">@<a href="https://hackers.town/@lmorchard" target="_blank">https:&#x2F;&#x2F;hackers.town&#x2F;@lmorchard</a></div>
+    <a class="avatar" href="https://hackers.town/@lmorchard" target="_blank"><img src="../../media/acc0bb231a7a2757c7e5c63aa68ce3cdbcfd32a43eb67a6bdedffe173c721184/avatar.png" width="48" height="48" /></a>
+  </div>
+  <div class="body">
+    <div class="text"><div class="summary">re: long activitypub question</div><p><span class="h-card" translate="no"><a href="https://mastodon.chriswiegman.com/@chris" class="u-url mention" rel="nofollow noopener noreferrer" target="_blank">@<span>chris</span></a></span> I might be overthinking it and just sprinkling in some additional properties in Note could be good enough 🤔</p></div></div>
+</archive-activity>
+
+      
+        <archive-activity id="4e5553d2f9f460f5aea7b393fd2336329ef0f1eecd7e620a5701554913c93921">
+  <div class="header">
+    <h3 class="published" id="anchor-4e5553d2f9f460f5aea7b393fd2336329ef0f1eecd7e620a5701554913c93921"><a href="https:&#x2F;&#x2F;hackers.town&#x2F;@lmorchard&#x2F;112245208361264387" target="_blank"><time is="formatted-time" data-pagefind-meta="title" datetime="2024-04-10T05:12:37.660Z" title="2024-04-10T05:12:37.660Z">2024-04-10T05:12:37.660Z</time></a><a href="#anchor-4e5553d2f9f460f5aea7b393fd2336329ef0f1eecd7e620a5701554913c93921">#</a>
+    </h3>
+    <div class="title">Les Orchard</div>
+    <div class="subtitle">@<a href="https://hackers.town/@lmorchard" target="_blank">https:&#x2F;&#x2F;hackers.town&#x2F;@lmorchard</a></div>
+    <a class="avatar" href="https://hackers.town/@lmorchard" target="_blank"><img src="../../media/acc0bb231a7a2757c7e5c63aa68ce3cdbcfd32a43eb67a6bdedffe173c721184/avatar.png" width="48" height="48" /></a>
+  </div>
+  <div class="body">
+    <div class="text"><div class="summary">re: long activitypub question</div><p><span class="h-card" translate="no"><a href="https://mastodon.chriswiegman.com/@chris" class="u-url mention" rel="nofollow noopener noreferrer" target="_blank">@<span>chris</span></a></span> oof Docker... I've been procrastinating figuring out how to dockerize a mastodon bot that itself spins up Docker containers as sandboxes 🤯</p></div></div>
+</archive-activity>
+
+      
+        <archive-activity id="b770844a2b533945aae199af51773353c892b3d196f44f712b8dd978e1a063e5">
+  <div class="header">
+    <h3 class="published" id="anchor-b770844a2b533945aae199af51773353c892b3d196f44f712b8dd978e1a063e5"><a href="https:&#x2F;&#x2F;hackers.town&#x2F;@lmorchard&#x2F;112245224718044350" target="_blank"><time is="formatted-time" data-pagefind-meta="title" datetime="2024-04-10T05:16:47.246Z" title="2024-04-10T05:16:47.246Z">2024-04-10T05:16:47.246Z</time></a><a href="#anchor-b770844a2b533945aae199af51773353c892b3d196f44f712b8dd978e1a063e5">#</a>
+    </h3>
+    <div class="title">Les Orchard</div>
+    <div class="subtitle">@<a href="https://hackers.town/@lmorchard" target="_blank">https:&#x2F;&#x2F;hackers.town&#x2F;@lmorchard</a></div>
+    <a class="avatar" href="https://hackers.town/@lmorchard" target="_blank"><img src="../../media/acc0bb231a7a2757c7e5c63aa68ce3cdbcfd32a43eb67a6bdedffe173c721184/avatar.png" width="48" height="48" /></a>
+  </div>
+  <div class="body">
+    <div class="text"><p><span class="h-card" translate="no"><a href="https://hackers.town/@Wrewdison" class="u-url mention">@<span>Wrewdison</span></a></span> <span class="h-card" translate="no"><a href="https://hackers.town/@randomgeek" class="u-url mention">@<span>randomgeek</span></a></span> baby don't hurt me, no more</p></div></div>
+</archive-activity>
+
+      
+        <archive-activity id="6d716d9bd0578011d378e340c963d0cbd4cb467627ced9c26da2e1b2c9d19054">
+  <div class="header">
+    <h3 class="published" id="anchor-6d716d9bd0578011d378e340c963d0cbd4cb467627ced9c26da2e1b2c9d19054"><a href="https:&#x2F;&#x2F;hackers.town&#x2F;@lmorchard&#x2F;112245232848426609" target="_blank"><time is="formatted-time" data-pagefind-meta="title" datetime="2024-04-10T05:18:51.306Z" title="2024-04-10T05:18:51.306Z">2024-04-10T05:18:51.306Z</time></a><a href="#anchor-6d716d9bd0578011d378e340c963d0cbd4cb467627ced9c26da2e1b2c9d19054">#</a>
+    </h3>
+    <div class="title">Les Orchard</div>
+    <div class="subtitle">@<a href="https://hackers.town/@lmorchard" target="_blank">https:&#x2F;&#x2F;hackers.town&#x2F;@lmorchard</a></div>
+    <a class="avatar" href="https://hackers.town/@lmorchard" target="_blank"><img src="../../media/acc0bb231a7a2757c7e5c63aa68ce3cdbcfd32a43eb67a6bdedffe173c721184/avatar.png" width="48" height="48" /></a>
+  </div>
+  <div class="body">
+    <div class="text"><div class="summary">re: long activitypub question</div><p><span class="h-card" translate="no"><a href="https://hachyderm.io/@rckenned" class="u-url mention" rel="nofollow noopener noreferrer" target="_blank">@<span>rckenned</span></a></span> I feel like there was a period where I totally understood MIME but a) I probably didn't and b) I think I replaced all those memories with mid-2010's internet memes</p></div></div>
+</archive-activity>
+
+      
+        <archive-activity id="c1dbbec93a99142d6550103fc5ded472f3378a76d8c9c69a943e35d8eb4190d2">
+  <div class="header">
+    <h3 class="published" id="anchor-c1dbbec93a99142d6550103fc5ded472f3378a76d8c9c69a943e35d8eb4190d2"><a href="https:&#x2F;&#x2F;hackers.town&#x2F;@lmorchard&#x2F;112245239661275924" target="_blank"><time is="formatted-time" data-pagefind-meta="title" datetime="2024-04-10T05:20:35.261Z" title="2024-04-10T05:20:35.261Z">2024-04-10T05:20:35.261Z</time></a><a href="#anchor-c1dbbec93a99142d6550103fc5ded472f3378a76d8c9c69a943e35d8eb4190d2">#</a>
+    </h3>
+    <div class="title">Les Orchard</div>
+    <div class="subtitle">@<a href="https://hackers.town/@lmorchard" target="_blank">https:&#x2F;&#x2F;hackers.town&#x2F;@lmorchard</a></div>
+    <a class="avatar" href="https://hackers.town/@lmorchard" target="_blank"><img src="../../media/acc0bb231a7a2757c7e5c63aa68ce3cdbcfd32a43eb67a6bdedffe173c721184/avatar.png" width="48" height="48" /></a>
+  </div>
+  <div class="body">
+    <div class="text"><div class="summary">re: long activitypub question</div><p><span class="h-card" translate="no"><a href="https://mastodon.chriswiegman.com/@chris" class="u-url mention" rel="nofollow noopener noreferrer" target="_blank">@<span>chris</span></a></span> FWIW, this is the bot on my backburner - it runs a LOGO program from a toot and then posts a video of the result. The LOGO runner is dockerized</p><p><a href="https://github.com/lmorchard/logotron/" target="_blank" rel="nofollow noopener noreferrer" translate="no"><span class="invisible">https://</span><span class="">github.com/lmorchard/logotron/</span><span class="invisible"></span></a></p></div></div>
+</archive-activity>
+
+      
+        <archive-activity id="8fabde04eadfe97392b6c4139484ab9abf18217096027f944d9b8f0ae95fb41b">
+  <div class="header">
+    <h3 class="published" id="anchor-8fabde04eadfe97392b6c4139484ab9abf18217096027f944d9b8f0ae95fb41b"><a href="https:&#x2F;&#x2F;hackers.town&#x2F;@lmorchard&#x2F;112245316347778713" target="_blank"><time is="formatted-time" data-pagefind-meta="title" datetime="2024-04-10T05:40:05.404Z" title="2024-04-10T05:40:05.404Z">2024-04-10T05:40:05.404Z</time></a><a href="#anchor-8fabde04eadfe97392b6c4139484ab9abf18217096027f944d9b8f0ae95fb41b">#</a>
+    </h3>
+    <div class="title">Les Orchard</div>
+    <div class="subtitle">@<a href="https://hackers.town/@lmorchard" target="_blank">https:&#x2F;&#x2F;hackers.town&#x2F;@lmorchard</a></div>
+    <a class="avatar" href="https://hackers.town/@lmorchard" target="_blank"><img src="../../media/acc0bb231a7a2757c7e5c63aa68ce3cdbcfd32a43eb67a6bdedffe173c721184/avatar.png" width="48" height="48" /></a>
+  </div>
+  <div class="body">
+    <div class="text"><p>Oh, hmm, I guess if my bot relies on a docker container image that it has to build first, it's not going to respond in a timely manner to my toot :blobsadleft:​</p></div></div>
+</archive-activity>
+
+      
+        <archive-activity id="c5b7d2ed69ad0252b008c28431acd8952d89b44877b4496c50233612cf83e488">
+  <div class="header">
+    <h3 class="published" id="anchor-c5b7d2ed69ad0252b008c28431acd8952d89b44877b4496c50233612cf83e488"><a href="https:&#x2F;&#x2F;hackers.town&#x2F;@lmorchard&#x2F;112245335248505752" target="_blank"><time is="formatted-time" data-pagefind-meta="title" datetime="2024-04-10T05:44:53.806Z" title="2024-04-10T05:44:53.806Z">2024-04-10T05:44:53.806Z</time></a><a href="#anchor-c5b7d2ed69ad0252b008c28431acd8952d89b44877b4496c50233612cf83e488">#</a>
+    </h3>
+    <div class="title">Les Orchard</div>
+    <div class="subtitle">@<a href="https://hackers.town/@lmorchard" target="_blank">https:&#x2F;&#x2F;hackers.town&#x2F;@lmorchard</a></div>
+    <a class="avatar" href="https://hackers.town/@lmorchard" target="_blank"><img src="../../media/acc0bb231a7a2757c7e5c63aa68ce3cdbcfd32a43eb67a6bdedffe173c721184/avatar.png" width="48" height="48" /></a>
+  </div>
+  <div class="body">
+    <div class="text"><p>d'aww! Catsby does this thing where he kind of walks up a wall as far as he can stretch and then twists his head around upside down to look behind him - and it looks just like this serval when he does it. I haven't seen any other cat do this?</p><p><a href="https://botsin.space/@ServalEveryHr/112245327311005688" target="_blank" rel="nofollow noopener noreferrer" translate="no"><span class="invisible">https://</span><span class="ellipsis">botsin.space/@ServalEveryHr/11</span><span class="invisible">2245327311005688</span></a></p></div></div>
+</archive-activity>
+
+      
+        <archive-activity id="9805cdee1a52205e53de390cd13b42282d4704612f548475e8d5e5f9c060c157">
+  <div class="header">
+    <h3 class="published" id="anchor-9805cdee1a52205e53de390cd13b42282d4704612f548475e8d5e5f9c060c157"><time is="formatted-time" data-pagefind-meta="title" datetime="2024-04-10T06:13:02.561Z" title="2024-04-10T06:13:02.561Z">2024-04-10T06:13:02.561Z</time><a href="#anchor-9805cdee1a52205e53de390cd13b42282d4704612f548475e8d5e5f9c060c157">#</a>
+    </h3>
+    <div class="title">Les Orchard</div>
+    <div class="subtitle">@<a href="https://hackers.town/@lmorchard" target="_blank">https:&#x2F;&#x2F;hackers.town&#x2F;@lmorchard</a></div>
+    <a class="avatar" href="https://hackers.town/@lmorchard" target="_blank"><img src="../../media/acc0bb231a7a2757c7e5c63aa68ce3cdbcfd32a43eb67a6bdedffe173c721184/avatar.png" width="48" height="48" /></a>
+  </div>
+  <div class="body">
+    <div class="text"><a href="https:&#x2F;&#x2F;ioc.exchange&#x2F;users&#x2F;mikemathia&#x2F;statuses&#x2F;112245444817852112" class="boost">https:&#x2F;&#x2F;ioc.exchange&#x2F;users&#x2F;mikemathia&#x2F;statuses&#x2F;112245444817852112</a></div></div>
+</archive-activity>
+
+      
+        <archive-activity id="aa0fd5706ec44e388140927d3001efe9b557c69c89fafa8695563a0b489af3f7">
+  <div class="header">
+    <h3 class="published" id="anchor-aa0fd5706ec44e388140927d3001efe9b557c69c89fafa8695563a0b489af3f7"><a href="https:&#x2F;&#x2F;hackers.town&#x2F;@lmorchard&#x2F;112248051844046432" target="_blank"><time is="formatted-time" data-pagefind-meta="title" datetime="2024-04-10T17:15:45.764Z" title="2024-04-10T17:15:45.764Z">2024-04-10T17:15:45.764Z</time></a><a href="#anchor-aa0fd5706ec44e388140927d3001efe9b557c69c89fafa8695563a0b489af3f7">#</a>
+    </h3>
+    <div class="title">Les Orchard</div>
+    <div class="subtitle">@<a href="https://hackers.town/@lmorchard" target="_blank">https:&#x2F;&#x2F;hackers.town&#x2F;@lmorchard</a></div>
+    <a class="avatar" href="https://hackers.town/@lmorchard" target="_blank"><img src="../../media/acc0bb231a7a2757c7e5c63aa68ce3cdbcfd32a43eb67a6bdedffe173c721184/avatar.png" width="48" height="48" /></a>
+  </div>
+  <div class="body">
+    <div class="text"><p>it's a day for Meat Beat Manifesto turned up to 11, here</p></div></div>
+</archive-activity>
+
+      
+        <archive-activity id="885d96af49bf6e3c689757b3859f53c597f3b487f6897a1ae0c0846dce9d4dd0">
+  <div class="header">
+    <h3 class="published" id="anchor-885d96af49bf6e3c689757b3859f53c597f3b487f6897a1ae0c0846dce9d4dd0"><a href="https:&#x2F;&#x2F;hackers.town&#x2F;@lmorchard&#x2F;112248077589634393" target="_blank"><time is="formatted-time" data-pagefind-meta="title" datetime="2024-04-10T17:22:18.610Z" title="2024-04-10T17:22:18.610Z">2024-04-10T17:22:18.610Z</time></a><a href="#anchor-885d96af49bf6e3c689757b3859f53c597f3b487f6897a1ae0c0846dce9d4dd0">#</a>
+    </h3>
+    <div class="title">Les Orchard</div>
+    <div class="subtitle">@<a href="https://hackers.town/@lmorchard" target="_blank">https:&#x2F;&#x2F;hackers.town&#x2F;@lmorchard</a></div>
+    <a class="avatar" href="https://hackers.town/@lmorchard" target="_blank"><img src="../../media/acc0bb231a7a2757c7e5c63aa68ce3cdbcfd32a43eb67a6bdedffe173c721184/avatar.png" width="48" height="48" /></a>
+  </div>
+  <div class="body">
+    <div class="text"><p>"Think we'll ever find any real intelligent life out there?"</p><p>"Who cares?"</p><p><a href="https://www.youtube.com/watch?v=UWmlE-q9cF0" target="_blank" rel="nofollow noopener noreferrer" translate="no"><span class="invisible">https://www.</span><span class="ellipsis">youtube.com/watch?v=UWmlE-q9cF</span><span class="invisible">0</span></a></p></div></div>
+</archive-activity>
+
+      
+        <archive-activity id="dde700c9609232a3dd8cb21af3d517b4b5f962626c794f6c6a37384a221369d9">
+  <div class="header">
+    <h3 class="published" id="anchor-dde700c9609232a3dd8cb21af3d517b4b5f962626c794f6c6a37384a221369d9"><a href="https:&#x2F;&#x2F;hackers.town&#x2F;@lmorchard&#x2F;112248109113308265" target="_blank"><time is="formatted-time" data-pagefind-meta="title" datetime="2024-04-10T17:30:19.623Z" title="2024-04-10T17:30:19.623Z">2024-04-10T17:30:19.623Z</time></a><a href="#anchor-dde700c9609232a3dd8cb21af3d517b4b5f962626c794f6c6a37384a221369d9">#</a>
+    </h3>
+    <div class="title">Les Orchard</div>
+    <div class="subtitle">@<a href="https://hackers.town/@lmorchard" target="_blank">https:&#x2F;&#x2F;hackers.town&#x2F;@lmorchard</a></div>
+    <a class="avatar" href="https://hackers.town/@lmorchard" target="_blank"><img src="../../media/acc0bb231a7a2757c7e5c63aa68ce3cdbcfd32a43eb67a6bdedffe173c721184/avatar.png" width="48" height="48" /></a>
+  </div>
+  <div class="body">
+    <div class="text"><p>I really want albums to come with footnotes</p><p><a href="https://en.wikipedia.org/wiki/Satyricon_(Meat_Beat_Manifesto_album)#Samples" target="_blank" rel="nofollow noopener noreferrer" translate="no"><span class="invisible">https://</span><span class="ellipsis">en.wikipedia.org/wiki/Satyrico</span><span class="invisible">n_(Meat_Beat_Manifesto_album)#Samples</span></a></p><p><a href="http://asciirose.com/s107/meat_beat_manifesto.php" target="_blank" rel="nofollow noopener noreferrer" translate="no"><span class="invisible">http://</span><span class="ellipsis">asciirose.com/s107/meat_beat_m</span><span class="invisible">anifesto.php</span></a></p></div></div>
+</archive-activity>
+
+      
+        <archive-activity id="5fcaefe92dc1e0b0f2d393db53797863e483ad4b9e84bf800d24180e55ed84c5">
+  <div class="header">
+    <h3 class="published" id="anchor-5fcaefe92dc1e0b0f2d393db53797863e483ad4b9e84bf800d24180e55ed84c5"><a href="https:&#x2F;&#x2F;hackers.town&#x2F;@lmorchard&#x2F;112248189617851700" target="_blank"><time is="formatted-time" data-pagefind-meta="title" datetime="2024-04-10T17:50:48.028Z" title="2024-04-10T17:50:48.028Z">2024-04-10T17:50:48.028Z</time></a><a href="#anchor-5fcaefe92dc1e0b0f2d393db53797863e483ad4b9e84bf800d24180e55ed84c5">#</a>
+    </h3>
+    <div class="title">Les Orchard</div>
+    <div class="subtitle">@<a href="https://hackers.town/@lmorchard" target="_blank">https:&#x2F;&#x2F;hackers.town&#x2F;@lmorchard</a></div>
+    <a class="avatar" href="https://hackers.town/@lmorchard" target="_blank"><img src="../../media/acc0bb231a7a2757c7e5c63aa68ce3cdbcfd32a43eb67a6bdedffe173c721184/avatar.png" width="48" height="48" /></a>
+  </div>
+  <div class="body">
+    <div class="text"><div class="summary">does logobot live?</div><p><span class="h-card" translate="no"><a href="https://toot.lmorchard.com/@logotron" class="u-url mention" rel="nofollow noopener noreferrer" target="_blank">@<span>logotron</span></a></span> are you receiving me?</p><p><a href="https://hackers.town/tags/logo" class="mention hashtag" rel="tag">#<span>logo</span></a> </p><p>to randomwalk<br>  repeat 1000 [<br>    setpencolor (random 1 15)<br>    make "r random 3<br>    if :r = 0 [ fd 20 ]<br>    if :r = 1 [ rt 90 fd 20 ]<br>    if :r = 2 [ lt 90 fd 20 ]<br>    wait 1<br>  ]<br>end</p><p>fullscreen<br>randomwalk</p><p>wait 120<br>bye</p></div></div>
+</archive-activity>
+
+      
+        <archive-activity id="2368a1e68701f66444f0a006b9caf5e80ffe627d9dab682bc41e320d44da6cd2">
+  <div class="header">
+    <h3 class="published" id="anchor-2368a1e68701f66444f0a006b9caf5e80ffe627d9dab682bc41e320d44da6cd2"><time is="formatted-time" data-pagefind-meta="title" datetime="2024-04-10T17:52:12.642Z" title="2024-04-10T17:52:12.642Z">2024-04-10T17:52:12.642Z</time><a href="#anchor-2368a1e68701f66444f0a006b9caf5e80ffe627d9dab682bc41e320d44da6cd2">#</a>
+    </h3>
+    <div class="title">Les Orchard</div>
+    <div class="subtitle">@<a href="https://hackers.town/@lmorchard" target="_blank">https:&#x2F;&#x2F;hackers.town&#x2F;@lmorchard</a></div>
+    <a class="avatar" href="https://hackers.town/@lmorchard" target="_blank"><img src="../../media/acc0bb231a7a2757c7e5c63aa68ce3cdbcfd32a43eb67a6bdedffe173c721184/avatar.png" width="48" height="48" /></a>
+  </div>
+  <div class="body">
+    <div class="text"><a href="https:&#x2F;&#x2F;toot.lmorchard.com&#x2F;users&#x2F;logotron&#x2F;statuses&#x2F;112248193993513040" class="boost">https:&#x2F;&#x2F;toot.lmorchard.com&#x2F;users&#x2F;logotron&#x2F;statuses&#x2F;112248193993513040</a></div></div>
+</archive-activity>
+
+      
+        <archive-activity id="6624d5eda7729c22d71fa0289e03c916e41424aaf7f3a86c37fc35e1f7656733">
+  <div class="header">
+    <h3 class="published" id="anchor-6624d5eda7729c22d71fa0289e03c916e41424aaf7f3a86c37fc35e1f7656733"><a href="https:&#x2F;&#x2F;hackers.town&#x2F;@lmorchard&#x2F;112248197809993175" target="_blank"><time is="formatted-time" data-pagefind-meta="title" datetime="2024-04-10T17:52:53.028Z" title="2024-04-10T17:52:53.028Z">2024-04-10T17:52:53.028Z</time></a><a href="#anchor-6624d5eda7729c22d71fa0289e03c916e41424aaf7f3a86c37fc35e1f7656733">#</a>
+    </h3>
+    <div class="title">Les Orchard</div>
+    <div class="subtitle">@<a href="https://hackers.town/@lmorchard" target="_blank">https:&#x2F;&#x2F;hackers.town&#x2F;@lmorchard</a></div>
+    <a class="avatar" href="https://hackers.town/@lmorchard" target="_blank"><img src="../../media/acc0bb231a7a2757c7e5c63aa68ce3cdbcfd32a43eb67a6bdedffe173c721184/avatar.png" width="48" height="48" /></a>
+  </div>
+  <div class="body">
+    <div class="text"><p>Yay, I got @logotron running again. Someday I'll get it fully dockerized so I can neglect it somewhere with more stability than a tmux session</p></div></div>
+</archive-activity>
+
+      
+        <archive-activity id="ba8ac445f819924f2a37eed8d4e5f5357723e9a4614b41ee374c68da6b05db5b">
+  <div class="header">
+    <h3 class="published" id="anchor-ba8ac445f819924f2a37eed8d4e5f5357723e9a4614b41ee374c68da6b05db5b"><a href="https:&#x2F;&#x2F;hackers.town&#x2F;@lmorchard&#x2F;112248215965845721" target="_blank"><time is="formatted-time" data-pagefind-meta="title" datetime="2024-04-10T17:57:30.065Z" title="2024-04-10T17:57:30.065Z">2024-04-10T17:57:30.065Z</time></a><a href="#anchor-ba8ac445f819924f2a37eed8d4e5f5357723e9a4614b41ee374c68da6b05db5b">#</a>
+    </h3>
+    <div class="title">Les Orchard</div>
+    <div class="subtitle">@<a href="https://hackers.town/@lmorchard" target="_blank">https:&#x2F;&#x2F;hackers.town&#x2F;@lmorchard</a></div>
+    <a class="avatar" href="https://hackers.town/@lmorchard" target="_blank"><img src="../../media/acc0bb231a7a2757c7e5c63aa68ce3cdbcfd32a43eb67a6bdedffe173c721184/avatar.png" width="48" height="48" /></a>
+  </div>
+  <div class="body">
+    <div class="text"><div class="summary">spiral</div><p><span class="h-card" translate="no"><a href="https://toot.lmorchard.com/@logotron" class="u-url mention" rel="nofollow noopener noreferrer" target="_blank">@<span>logotron</span></a></span> Try drawing a spiral? <a href="https://hackers.town/tags/logo" class="mention hashtag" rel="tag">#<span>logo</span></a> </p><p>to spiral :size<br>   make "n 1<br>   make "turns 0<br>   while [:n &lt; :size] [<br>      make "n :n + 5<br>      make "turns turns + 1<br>      if :turns &gt; 3 [<br>        make "turns 0<br>        setpencolor (random 1 15)<br>      ]<br>      fd :n rt 90<br>   ]<br>end</p><p>clearscreen<br>fullscreen<br>setpensize 2<br>spiral 2000</p></div></div>
+</archive-activity>
+
+      
+        <archive-activity id="9ca01b176599e6ed5883d5ae42eb7b81f00123fe2e88966f749e7b43eac48d5c">
+  <div class="header">
+    <h3 class="published" id="anchor-9ca01b176599e6ed5883d5ae42eb7b81f00123fe2e88966f749e7b43eac48d5c"><a href="https:&#x2F;&#x2F;hackers.town&#x2F;@lmorchard&#x2F;112248243600912958" target="_blank"><time is="formatted-time" data-pagefind-meta="title" datetime="2024-04-10T18:04:31.744Z" title="2024-04-10T18:04:31.744Z">2024-04-10T18:04:31.744Z</time></a><a href="#anchor-9ca01b176599e6ed5883d5ae42eb7b81f00123fe2e88966f749e7b43eac48d5c">#</a>
+    </h3>
+    <div class="title">Les Orchard</div>
+    <div class="subtitle">@<a href="https://hackers.town/@lmorchard" target="_blank">https:&#x2F;&#x2F;hackers.town&#x2F;@lmorchard</a></div>
+    <a class="avatar" href="https://hackers.town/@lmorchard" target="_blank"><img src="../../media/acc0bb231a7a2757c7e5c63aa68ce3cdbcfd32a43eb67a6bdedffe173c721184/avatar.png" width="48" height="48" /></a>
+  </div>
+  <div class="body">
+    <div class="text"><div class="summary">spiral slower?</div><p><span class="h-card" translate="no"><a href="https://toot.lmorchard.com/@logotron" class="u-url mention" rel="nofollow noopener noreferrer" target="_blank">@<span>logotron</span></a></span>  try drawing a slower spiral <a href="https://hackers.town/tags/logo" class="mention hashtag" rel="tag">#<span>logo</span></a> </p><p>to spiral :size<br>   make "n 1<br>   make "turns 0<br>   while [:n &lt; :size] [<br>      make "n :n + 5<br>      make "turns turns + 1<br>      if :turns &gt; 3 [<br>        make "turns 0<br>        setpencolor (random 1 15)<br>      ]<br>      fd :n rt 90<br>      wait 1<br>   ]<br>end</p><p>clearscreen<br>fullscreen<br>setpensize 2<br>spiral 2000</p></div></div>
+</archive-activity>
+
+      
+        <archive-activity id="4808df7d56b645d4ee8a0ce04257162f6757309d2e2f0c6d4aeb3d5e38f28c46">
+  <div class="header">
+    <h3 class="published" id="anchor-4808df7d56b645d4ee8a0ce04257162f6757309d2e2f0c6d4aeb3d5e38f28c46"><time is="formatted-time" data-pagefind-meta="title" datetime="2024-04-10T18:13:19.336Z" title="2024-04-10T18:13:19.336Z">2024-04-10T18:13:19.336Z</time><a href="#anchor-4808df7d56b645d4ee8a0ce04257162f6757309d2e2f0c6d4aeb3d5e38f28c46">#</a>
+    </h3>
+    <div class="title">Les Orchard</div>
+    <div class="subtitle">@<a href="https://hackers.town/@lmorchard" target="_blank">https:&#x2F;&#x2F;hackers.town&#x2F;@lmorchard</a></div>
+    <a class="avatar" href="https://hackers.town/@lmorchard" target="_blank"><img src="../../media/acc0bb231a7a2757c7e5c63aa68ce3cdbcfd32a43eb67a6bdedffe173c721184/avatar.png" width="48" height="48" /></a>
+  </div>
+  <div class="body">
+    <div class="text"><a href="https:&#x2F;&#x2F;toot.lmorchard.com&#x2F;users&#x2F;logotron&#x2F;statuses&#x2F;112248246312602756" class="boost">https:&#x2F;&#x2F;toot.lmorchard.com&#x2F;users&#x2F;logotron&#x2F;statuses&#x2F;112248246312602756</a></div></div>
+</archive-activity>
+
+      
+        <archive-activity id="c5716f7a0fcb4d6caef89aa4c4a3346a092039c1083c8c7b69171c8c91790b9e">
+  <div class="header">
+    <h3 class="published" id="anchor-c5716f7a0fcb4d6caef89aa4c4a3346a092039c1083c8c7b69171c8c91790b9e"><a href="https:&#x2F;&#x2F;hackers.town&#x2F;@lmorchard&#x2F;112248290532336089" target="_blank"><time is="formatted-time" data-pagefind-meta="title" datetime="2024-04-10T18:16:27.859Z" title="2024-04-10T18:16:27.859Z">2024-04-10T18:16:27.859Z</time></a><a href="#anchor-c5716f7a0fcb4d6caef89aa4c4a3346a092039c1083c8c7b69171c8c91790b9e">#</a>
+    </h3>
+    <div class="title">Les Orchard</div>
+    <div class="subtitle">@<a href="https://hackers.town/@lmorchard" target="_blank">https:&#x2F;&#x2F;hackers.town&#x2F;@lmorchard</a></div>
+    <a class="avatar" href="https://hackers.town/@lmorchard" target="_blank"><img src="../../media/acc0bb231a7a2757c7e5c63aa68ce3cdbcfd32a43eb67a6bdedffe173c721184/avatar.png" width="48" height="48" /></a>
+  </div>
+  <div class="body">
+    <div class="text"><p>I need a word which conveys both pride and embarrassment for this pile of shell scripting hacks I managed to assemble which records video of a Logo program execution in a headless X11 session run via Docker</p><p><a href="https://github.com/lmorchard/logotron/blob/main/ucblogo-runner/entrypoint.sh" target="_blank" rel="nofollow noopener noreferrer" translate="no"><span class="invisible">https://</span><span class="ellipsis">github.com/lmorchard/logotron/</span><span class="invisible">blob/main/ucblogo-runner/entrypoint.sh</span></a></p></div></div>
+</archive-activity>
+
+      
+        <archive-activity id="ab36b1b381f034ade616cf11a8fc6180432b8e80a542373c0f949aef0dee87cd">
+  <div class="header">
+    <h3 class="published" id="anchor-ab36b1b381f034ade616cf11a8fc6180432b8e80a542373c0f949aef0dee87cd"><a href="https:&#x2F;&#x2F;hackers.town&#x2F;@lmorchard&#x2F;112248321309381356" target="_blank"><time is="formatted-time" data-pagefind-meta="title" datetime="2024-04-10T18:24:17.479Z" title="2024-04-10T18:24:17.479Z">2024-04-10T18:24:17.479Z</time></a><a href="#anchor-ab36b1b381f034ade616cf11a8fc6180432b8e80a542373c0f949aef0dee87cd">#</a>
+    </h3>
+    <div class="title">Les Orchard</div>
+    <div class="subtitle">@<a href="https://hackers.town/@lmorchard" target="_blank">https:&#x2F;&#x2F;hackers.town&#x2F;@lmorchard</a></div>
+    <a class="avatar" href="https://hackers.town/@lmorchard" target="_blank"><img src="../../media/acc0bb231a7a2757c7e5c63aa68ce3cdbcfd32a43eb67a6bdedffe173c721184/avatar.png" width="48" height="48" /></a>
+  </div>
+  <div class="body">
+    <div class="text"><p><span class="h-card" translate="no"><a href="https://techhub.social/@giflian" class="u-url mention" rel="nofollow noopener noreferrer" target="_blank">@<span>giflian</span></a></span> Well, embarrassment because it's a bunch of commands kind of duct taped together in weird ways and I just sort of copy/pasted bits until it worked. It's not even a very good shell script except that it does the needful 😅</p></div></div>
+</archive-activity>
+
+      
+        <archive-activity id="4e39a7c40eb34c39ec19a971038eb568d8dc04c6642c5f071aafa951561a856a">
+  <div class="header">
+    <h3 class="published" id="anchor-4e39a7c40eb34c39ec19a971038eb568d8dc04c6642c5f071aafa951561a856a"><a href="https:&#x2F;&#x2F;hackers.town&#x2F;@lmorchard&#x2F;112248326885570737" target="_blank"><time is="formatted-time" data-pagefind-meta="title" datetime="2024-04-10T18:25:42.565Z" title="2024-04-10T18:25:42.565Z">2024-04-10T18:25:42.565Z</time></a><a href="#anchor-4e39a7c40eb34c39ec19a971038eb568d8dc04c6642c5f071aafa951561a856a">#</a>
+    </h3>
+    <div class="title">Les Orchard</div>
+    <div class="subtitle">@<a href="https://hackers.town/@lmorchard" target="_blank">https:&#x2F;&#x2F;hackers.town&#x2F;@lmorchard</a></div>
+    <a class="avatar" href="https://hackers.town/@lmorchard" target="_blank"><img src="../../media/acc0bb231a7a2757c7e5c63aa68ce3cdbcfd32a43eb67a6bdedffe173c721184/avatar.png" width="48" height="48" /></a>
+  </div>
+  <div class="body">
+    <div class="text"><p><span class="h-card" translate="no"><a href="https://techhub.social/@giflian" class="u-url mention" rel="nofollow noopener noreferrer" target="_blank">@<span>giflian</span></a></span> That said, I'm not sure it would be better if I'd written it in, say, Python rather than bash</p></div></div>
+</archive-activity>
+
+      
+        <archive-activity id="b9d001155ade33b0a26cb696e0adf34a9370bda1e37ba5498de9aec3cc965d8e">
+  <div class="header">
+    <h3 class="published" id="anchor-b9d001155ade33b0a26cb696e0adf34a9370bda1e37ba5498de9aec3cc965d8e"><a href="https:&#x2F;&#x2F;hackers.town&#x2F;@lmorchard&#x2F;112248450639419507" target="_blank"><time is="formatted-time" data-pagefind-meta="title" datetime="2024-04-10T18:57:10.899Z" title="2024-04-10T18:57:10.899Z">2024-04-10T18:57:10.899Z</time></a><a href="#anchor-b9d001155ade33b0a26cb696e0adf34a9370bda1e37ba5498de9aec3cc965d8e">#</a>
+    </h3>
+    <div class="title">Les Orchard</div>
+    <div class="subtitle">@<a href="https://hackers.town/@lmorchard" target="_blank">https:&#x2F;&#x2F;hackers.town&#x2F;@lmorchard</a></div>
+    <a class="avatar" href="https://hackers.town/@lmorchard" target="_blank"><img src="../../media/acc0bb231a7a2757c7e5c63aa68ce3cdbcfd32a43eb67a6bdedffe173c721184/avatar.png" width="48" height="48" /></a>
+  </div>
+  <div class="body">
+    <div class="text"><p><span class="h-card" translate="no"><a href="https://xoxo.zone/@mathowie" class="u-url mention" rel="nofollow noopener noreferrer" target="_blank">@<span>mathowie</span></a></span> Nah, there's supposedly a new "AI Playlist" option in the "+" add button from "Your LIbrary" - except it seems not entirely rolled out, since I haven't seen it yet (oh, I guess only available in United Kingdom and Australia so far?)</p><p><a href="https://www.newsroom.spotify.com/2024-04-07/spotify-premium-users-can-now-turn-any-idea-into-a-personalized-playlist-with-ai-playlist-in-beta/" target="_blank" rel="nofollow noopener noreferrer" translate="no"><span class="invisible">https://www.</span><span class="ellipsis">newsroom.spotify.com/2024-04-0</span><span class="invisible">7/spotify-premium-users-can-now-turn-any-idea-into-a-personalized-playlist-with-ai-playlist-in-beta/</span></a></p></div></div>
+</archive-activity>
+
+      
+        <archive-activity id="9a8728f765f5e8ea450c5aff53eef5636b6d9dd9ac1671a3da38ce669fe2f9e1">
+  <div class="header">
+    <h3 class="published" id="anchor-9a8728f765f5e8ea450c5aff53eef5636b6d9dd9ac1671a3da38ce669fe2f9e1"><a href="https:&#x2F;&#x2F;hackers.town&#x2F;@lmorchard&#x2F;112248468111645097" target="_blank"><time is="formatted-time" data-pagefind-meta="title" datetime="2024-04-10T19:01:37.504Z" title="2024-04-10T19:01:37.504Z">2024-04-10T19:01:37.504Z</time></a><a href="#anchor-9a8728f765f5e8ea450c5aff53eef5636b6d9dd9ac1671a3da38ce669fe2f9e1">#</a>
+    </h3>
+    <div class="title">Les Orchard</div>
+    <div class="subtitle">@<a href="https://hackers.town/@lmorchard" target="_blank">https:&#x2F;&#x2F;hackers.town&#x2F;@lmorchard</a></div>
+    <a class="avatar" href="https://hackers.town/@lmorchard" target="_blank"><img src="../../media/acc0bb231a7a2757c7e5c63aa68ce3cdbcfd32a43eb67a6bdedffe173c721184/avatar.png" width="48" height="48" /></a>
+  </div>
+  <div class="body">
+    <div class="text"><p>Been trying out this AI-generated PocketPod news podcast thing over the past week or so.</p><p>It's weird, it sounds a bit like an infomercial version of an NPR news cast - complete with multiple hosts ping-pong'ing back &amp; forth on reading lines a little too slickly. The effort seems kind of clever but also a bit too nestled in the uncanny valley and triggers distrust that they're selling me something or trying to work me over</p><p><a href="https://news.pocketpod.app/" target="_blank" rel="nofollow noopener noreferrer" translate="no"><span class="invisible">https://</span><span class="">news.pocketpod.app/</span><span class="invisible"></span></a></p></div></div>
+</archive-activity>
+
+      
+        <archive-activity id="9362ee9fbf878b2a28ef0f2b7b52ec4986ae228b68e4f836f1ae8f5c876d70f6">
+  <div class="header">
+    <h3 class="published" id="anchor-9362ee9fbf878b2a28ef0f2b7b52ec4986ae228b68e4f836f1ae8f5c876d70f6"><a href="https:&#x2F;&#x2F;hackers.town&#x2F;@lmorchard&#x2F;112248603289920551" target="_blank"><time is="formatted-time" data-pagefind-meta="title" datetime="2024-04-10T19:36:00.161Z" title="2024-04-10T19:36:00.161Z">2024-04-10T19:36:00.161Z</time></a><a href="#anchor-9362ee9fbf878b2a28ef0f2b7b52ec4986ae228b68e4f836f1ae8f5c876d70f6">#</a>
+    </h3>
+    <div class="title">Les Orchard</div>
+    <div class="subtitle">@<a href="https://hackers.town/@lmorchard" target="_blank">https:&#x2F;&#x2F;hackers.town&#x2F;@lmorchard</a></div>
+    <a class="avatar" href="https://hackers.town/@lmorchard" target="_blank"><img src="../../media/acc0bb231a7a2757c7e5c63aa68ce3cdbcfd32a43eb67a6bdedffe173c721184/avatar.png" width="48" height="48" /></a>
+  </div>
+  <div class="body">
+    <div class="text"><p><span class="h-card" translate="no"><a href="https://orbital.horse/@emma" class="u-url mention" rel="nofollow noopener noreferrer" target="_blank">@<span>emma</span></a></span> Yeah, I used to listen to Spotify non-stop, years ago. These days I pretty much only listen to a few DJ streams, some Twitch DJs, a few Mixcloud shows, and the enormous pile of FLAC files ripped from my ancient CD collection. Weird future</p></div></div>
+</archive-activity>
+
+      
+        <archive-activity id="7368ab2d226e8aa1b5f4bdf66981a248c0a7279670981f53021208500737a298">
+  <div class="header">
+    <h3 class="published" id="anchor-7368ab2d226e8aa1b5f4bdf66981a248c0a7279670981f53021208500737a298"><a href="https:&#x2F;&#x2F;hackers.town&#x2F;@lmorchard&#x2F;112248603591490618" target="_blank"><time is="formatted-time" data-pagefind-meta="title" datetime="2024-04-10T19:36:04.762Z" title="2024-04-10T19:36:04.762Z">2024-04-10T19:36:04.762Z</time></a><a href="#anchor-7368ab2d226e8aa1b5f4bdf66981a248c0a7279670981f53021208500737a298">#</a>
+    </h3>
+    <div class="title">Les Orchard</div>
+    <div class="subtitle">@<a href="https://hackers.town/@lmorchard" target="_blank">https:&#x2F;&#x2F;hackers.town&#x2F;@lmorchard</a></div>
+    <a class="avatar" href="https://hackers.town/@lmorchard" target="_blank"><img src="../../media/acc0bb231a7a2757c7e5c63aa68ce3cdbcfd32a43eb67a6bdedffe173c721184/avatar.png" width="48" height="48" /></a>
+  </div>
+  <div class="body">
+    <div class="text"><p>(circus music plays)</p></div></div>
+</archive-activity>
+
+      
+        <archive-activity id="badb53ca9f54f609cc51c706e550118879bb4b9bfcb5c85e341de15a8fb081c4">
+  <div class="header">
+    <h3 class="published" id="anchor-badb53ca9f54f609cc51c706e550118879bb4b9bfcb5c85e341de15a8fb081c4"><time is="formatted-time" data-pagefind-meta="title" datetime="2024-04-10T19:36:42.163Z" title="2024-04-10T19:36:42.163Z">2024-04-10T19:36:42.163Z</time><a href="#anchor-badb53ca9f54f609cc51c706e550118879bb4b9bfcb5c85e341de15a8fb081c4">#</a>
+    </h3>
+    <div class="title">Les Orchard</div>
+    <div class="subtitle">@<a href="https://hackers.town/@lmorchard" target="_blank">https:&#x2F;&#x2F;hackers.town&#x2F;@lmorchard</a></div>
+    <a class="avatar" href="https://hackers.town/@lmorchard" target="_blank"><img src="../../media/acc0bb231a7a2757c7e5c63aa68ce3cdbcfd32a43eb67a6bdedffe173c721184/avatar.png" width="48" height="48" /></a>
+  </div>
+  <div class="body">
+    <div class="text"><a href="https:&#x2F;&#x2F;fandom.ink&#x2F;users&#x2F;carithlee&#x2F;statuses&#x2F;112247193938422886" class="boost">https:&#x2F;&#x2F;fandom.ink&#x2F;users&#x2F;carithlee&#x2F;statuses&#x2F;112247193938422886</a></div></div>
+</archive-activity>
+
+      
+        <archive-activity id="3619424167e93340261e8a4542235a9fc98168188ce3f308e8767e8f1255a0b3">
+  <div class="header">
+    <h3 class="published" id="anchor-3619424167e93340261e8a4542235a9fc98168188ce3f308e8767e8f1255a0b3"><a href="https:&#x2F;&#x2F;hackers.town&#x2F;@lmorchard&#x2F;112248611124970898" target="_blank"><time is="formatted-time" data-pagefind-meta="title" datetime="2024-04-10T19:37:59.714Z" title="2024-04-10T19:37:59.714Z">2024-04-10T19:37:59.714Z</time></a><a href="#anchor-3619424167e93340261e8a4542235a9fc98168188ce3f308e8767e8f1255a0b3">#</a>
+    </h3>
+    <div class="title">Les Orchard</div>
+    <div class="subtitle">@<a href="https://hackers.town/@lmorchard" target="_blank">https:&#x2F;&#x2F;hackers.town&#x2F;@lmorchard</a></div>
+    <a class="avatar" href="https://hackers.town/@lmorchard" target="_blank"><img src="../../media/acc0bb231a7a2757c7e5c63aa68ce3cdbcfd32a43eb67a6bdedffe173c721184/avatar.png" width="48" height="48" /></a>
+  </div>
+  <div class="body">
+    <div class="text"><p><span class="h-card" translate="no"><a href="https://fandom.ink/@carithlee" class="u-url mention" rel="nofollow noopener noreferrer" target="_blank">@<span>carithlee</span></a></span> Hah, I wrote my first two blog posts in over a year and then did 5 live streams from my workbench all in one week. I was like "I'm in a groove!" and then proceeded to have zero energy for anything interesting for the following 3 weeks</p></div></div>
+</archive-activity>
+
+      
+        <archive-activity id="f12b9624bdd98712c88d9a9b3c00fa181ab531968b8e1ca2f0d84dd5e34f93ca">
+  <div class="header">
+    <h3 class="published" id="anchor-f12b9624bdd98712c88d9a9b3c00fa181ab531968b8e1ca2f0d84dd5e34f93ca"><a href="https:&#x2F;&#x2F;hackers.town&#x2F;@lmorchard&#x2F;112248882992821861" target="_blank"><time is="formatted-time" data-pagefind-meta="title" datetime="2024-04-10T20:47:08.088Z" title="2024-04-10T20:47:08.088Z">2024-04-10T20:47:08.088Z</time></a><a href="#anchor-f12b9624bdd98712c88d9a9b3c00fa181ab531968b8e1ca2f0d84dd5e34f93ca">#</a>
+    </h3>
+    <div class="title">Les Orchard</div>
+    <div class="subtitle">@<a href="https://hackers.town/@lmorchard" target="_blank">https:&#x2F;&#x2F;hackers.town&#x2F;@lmorchard</a></div>
+    <a class="avatar" href="https://hackers.town/@lmorchard" target="_blank"><img src="../../media/acc0bb231a7a2757c7e5c63aa68ce3cdbcfd32a43eb67a6bdedffe173c721184/avatar.png" width="48" height="48" /></a>
+  </div>
+  <div class="body">
+    <div class="text"><p>I need a bot to randomly invite me to a scattering of :15 to :45 minute long events to serve as chaff to help fend off incoming free-time-seeking meetings</p></div></div>
+</archive-activity>
+
+      
+        <archive-activity id="44a92c864ff0f594e66efaa033f4b5bf77adf275a42f273078b9389cf663cf11">
+  <div class="header">
+    <h3 class="published" id="anchor-44a92c864ff0f594e66efaa033f4b5bf77adf275a42f273078b9389cf663cf11"><a href="https:&#x2F;&#x2F;hackers.town&#x2F;@lmorchard&#x2F;112249172915752281" target="_blank"><time is="formatted-time" data-pagefind-meta="title" datetime="2024-04-10T22:00:51.961Z" title="2024-04-10T22:00:51.961Z">2024-04-10T22:00:51.961Z</time></a><a href="#anchor-44a92c864ff0f594e66efaa033f4b5bf77adf275a42f273078b9389cf663cf11">#</a>
+    </h3>
+    <div class="title">Les Orchard</div>
+    <div class="subtitle">@<a href="https://hackers.town/@lmorchard" target="_blank">https:&#x2F;&#x2F;hackers.town&#x2F;@lmorchard</a></div>
+    <a class="avatar" href="https://hackers.town/@lmorchard" target="_blank"><img src="../../media/acc0bb231a7a2757c7e5c63aa68ce3cdbcfd32a43eb67a6bdedffe173c721184/avatar.png" width="48" height="48" /></a>
+  </div>
+  <div class="body">
+    <div class="text"><p><span class="h-card" translate="no"><a href="https://computerfairi.es/@mavica_again" class="u-url mention" rel="nofollow noopener noreferrer" target="_blank">@<span>mavica_again</span></a></span> those are great languages to program in on a MAC</p></div></div>
+</archive-activity>
+
+      
+        <archive-activity id="56daf9eb68872fec7f49d00e3f7c331af88949c2776df19ec9ca2d7167da75df">
+  <div class="header">
+    <h3 class="published" id="anchor-56daf9eb68872fec7f49d00e3f7c331af88949c2776df19ec9ca2d7167da75df"><a href="https:&#x2F;&#x2F;hackers.town&#x2F;@lmorchard&#x2F;112249457368206768" target="_blank"><time is="formatted-time" data-pagefind-meta="title" datetime="2024-04-10T23:13:12.361Z" title="2024-04-10T23:13:12.361Z">2024-04-10T23:13:12.361Z</time></a><a href="#anchor-56daf9eb68872fec7f49d00e3f7c331af88949c2776df19ec9ca2d7167da75df">#</a>
+    </h3>
+    <div class="title">Les Orchard</div>
+    <div class="subtitle">@<a href="https://hackers.town/@lmorchard" target="_blank">https:&#x2F;&#x2F;hackers.town&#x2F;@lmorchard</a></div>
+    <a class="avatar" href="https://hackers.town/@lmorchard" target="_blank"><img src="../../media/acc0bb231a7a2757c7e5c63aa68ce3cdbcfd32a43eb67a6bdedffe173c721184/avatar.png" width="48" height="48" /></a>
+  </div>
+  <div class="body">
+    <div class="text"><p>Weird Rust question I've been putting off figuring out: I'm building a CLI tool (i.e. <a href="https://github.com/lmorchard/fossilizer" target="_blank" rel="nofollow noopener noreferrer">fossilizer</a>) that essentially depends on another CLI tool (i.e. <a href="https://pagefind.app/" target="_blank" rel="nofollow noopener noreferrer">pagefind</a>). </p><p><a href="https://github.com/lmorchard/fossilizer/issues/7" target="_blank" rel="nofollow noopener noreferrer">I'd like to integrate the two</a>. They're both implemented in Rust and they're both MIT-licensed. But, the second tool isn't really offered as a convenient library. So, it's easiest to run it as a standalone CLI binary.</p><p>The user can just download both and <a href="https://lmorchard.github.io/fossilizer/quick-start.html" target="_blank" rel="nofollow noopener noreferrer">run them one after the other</a>. But, just having one executable to download is one of the reasons I started this project using Rust. I think it would be neat if they could just download my tool and get a twofer with pagefind bundled in.</p><p>An interesting thing is that a node.js wrapper for pagefind exists - it basically depends on another NPM package containing the platform-appropriate pagefind executable and talks to it from a node.js module. So, my notion seems not too far off from intended use?</p><p>(OTOH, maybe this is a terrible idea and instructions to the user to download both tools separately is just how it goes)</p></div></div>
+</archive-activity>
+
+      
+        <archive-activity id="a6a39353557b848c052de487a54d30a4bfc374051a9faca4e30603986e094fc1">
+  <div class="header">
+    <h3 class="published" id="anchor-a6a39353557b848c052de487a54d30a4bfc374051a9faca4e30603986e094fc1"><a href="https:&#x2F;&#x2F;hackers.town&#x2F;@lmorchard&#x2F;112249505822740139" target="_blank"><time is="formatted-time" data-pagefind-meta="title" datetime="2024-04-10T23:25:31.719Z" title="2024-04-10T23:25:31.719Z">2024-04-10T23:25:31.719Z</time></a><a href="#anchor-a6a39353557b848c052de487a54d30a4bfc374051a9faca4e30603986e094fc1">#</a>
+    </h3>
+    <div class="title">Les Orchard</div>
+    <div class="subtitle">@<a href="https://hackers.town/@lmorchard" target="_blank">https:&#x2F;&#x2F;hackers.town&#x2F;@lmorchard</a></div>
+    <a class="avatar" href="https://hackers.town/@lmorchard" target="_blank"><img src="../../media/acc0bb231a7a2757c7e5c63aa68ce3cdbcfd32a43eb67a6bdedffe173c721184/avatar.png" width="48" height="48" /></a>
+  </div>
+  <div class="body">
+    <div class="text"><p>Just saw someone refer to sites for pirating media as "online sailing forums" :dead:​</p></div></div>
+</archive-activity>
+
+      
+        <archive-activity id="92037367bf86a3fce09f85189cddfda0aade31df09c583cf232a51bd92bc7b86">
+  <div class="header">
+    <h3 class="published" id="anchor-92037367bf86a3fce09f85189cddfda0aade31df09c583cf232a51bd92bc7b86"><a href="https:&#x2F;&#x2F;hackers.town&#x2F;@lmorchard&#x2F;112249530233350348" target="_blank"><time is="formatted-time" data-pagefind-meta="title" datetime="2024-04-10T23:31:44.196Z" title="2024-04-10T23:31:44.196Z">2024-04-10T23:31:44.196Z</time></a><a href="#anchor-92037367bf86a3fce09f85189cddfda0aade31df09c583cf232a51bd92bc7b86">#</a>
+    </h3>
+    <div class="title">Les Orchard</div>
+    <div class="subtitle">@<a href="https://hackers.town/@lmorchard" target="_blank">https:&#x2F;&#x2F;hackers.town&#x2F;@lmorchard</a></div>
+    <a class="avatar" href="https://hackers.town/@lmorchard" target="_blank"><img src="../../media/acc0bb231a7a2757c7e5c63aa68ce3cdbcfd32a43eb67a6bdedffe173c721184/avatar.png" width="48" height="48" /></a>
+  </div>
+  <div class="body">
+    <div class="text"><p><span class="h-card" translate="no"><a href="https://hackers.town/@cinebox" class="u-url mention">@<span>cinebox</span></a></span> points for that!</p></div><media-lightbox-list><media-lightbox-item>
+            <a href="../../media/acc0bb231a7a2757c7e5c63aa68ce3cdbcfd32a43eb67a6bdedffe173c721184//system/media_attachments/files/112/249/527/445/853/938/original/cb60c69c98ef58d8.mp4" title="" target="_blank"><video controls title="" loop>
+                  <source src="../../media/acc0bb231a7a2757c7e5c63aa68ce3cdbcfd32a43eb67a6bdedffe173c721184//system/media_attachments/files/112/249/527/445/853/938/original/cb60c69c98ef58d8.mp4" type="video/mp4" />
+                </video></a>
+          </media-lightbox-item></media-lightbox-list></div>
+</archive-activity>
+
+      
+    </archive-activity-list-contents>
+    
+      <archive-activity-list-next-page>
+        <a class="lazy-load auto-click"
+            href="../../2024/04/11.html"
+            title="2024&#x2F;04&#x2F;11">
+          2024&#x2F;04&#x2F;11
+        </a>
+      </archive-activity-list-next-page>
+    
+  </archive-activity-list>
+
+          </media-lightbox-context>
+        </formatted-time-context>
+      </lazy-load-observer>
+    </archive-main>
+
+  </body>
+</html>
