@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta content='text/html; charset=UTF-8' http-equiv='Content-Type'>
+<meta charset='utf-8'>
+<title>This page is not correct
+ - Mastodon Glitch Edition</title>
+<meta content='width=device-width,initial-scale=1' name='viewport'>
+<link rel="stylesheet" crossorigin="anonymous" href="/packs/css/flavours/glitch/common-34aedb4e.chunk.css" media="all" integrity="sha256-gEF/bpPkRQg7x2UJ6XAqB7iAl2hwW90yz+mu7SK1iB0=" />
+<link rel="stylesheet" crossorigin="anonymous" href="/packs/css/skins/glitch/mastodon-light-e77dd0de.chunk.css" media="not all and (prefers-color-scheme: dark)" integrity="sha256-JvwCfgA5uEgo/jAfdEIjtIxyxtJ9GJR/Z+YAtfY2Hcw=" /><link rel="stylesheet" crossorigin="anonymous" href="/packs/css/skins/glitch/default-abb4743c.chunk.css" media="(prefers-color-scheme: dark)" integrity="sha256-5kdABZ1ah/rnTtjcsBa3kiVe1lZ0aGHO96LrDC8ZybQ=" />
+<script src="/packs/js/common-4dac5e47b3ba9d6304be.js" crossorigin="anonymous" integrity="sha256-jzcm0TZeyXR5eqdYN/3hbGvQY7ZWoF6GiNy2IGdkUdc="></script>
+<script src="/packs/js/flavours/glitch/error-9f33736067b2d89b3c99.chunk.js" crossorigin="anonymous" integrity="sha256-3hpaUuGTsrlUqCNY06bxqcHfeZzbJhXuKdGnT/ya2mA="></script>
+</head>
+<body class='error'>
+<div class='dialog'>
+<div class='dialog__illustration'>
+<img alt='Mastodon Glitch Edition' src='/oops.png'>
+</div>
+<div class='dialog__message'>
+<h1>We&#39;re sorry, but something went wrong on our end.
+</h1>
+</div>
+</div>
+</body>
+</html>

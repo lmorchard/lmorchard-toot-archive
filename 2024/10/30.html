@@ -1,0 +1,269 @@
+<!doctype html>
+<html lang="en" data-bs-theme="dark">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🧐</text></svg>">
+    
+    
+  <title>2024/10/30</title>
+  
+    <link rel="prev" href="../../2024/10/29.html" title="2024&#x2F;10&#x2F;29" />
+  
+  
+    <link rel="next" href="../../2024/10/31.html" title="2024&#x2F;10&#x2F;31" />
+  
+
+
+    <link rel="base" href="..&#x2F;.." title="Base" />
+    <link rel="top" href="../../index.html" title="Index" />
+
+    <link href="../../pagefind/pagefind-ui.css" rel="stylesheet">
+    <script src="../../pagefind/pagefind-ui.js" type="text/javascript"></script>
+
+    <script src="../../vendor/timeago.min.js" type="text/javascript"></script>
+
+    <link href="../../index.css" rel="stylesheet">
+    <script src="../../index.js" type="module"></script>
+  </head>
+  <body class="fossilizer">
+
+    <archive-nav>
+      <section>
+        <details class="menu">
+          <summary>Menu</summary>
+          <section>
+            <archive-nav-date-selector></archive-nav-date-selector>
+            <archive-activity-list-controls for="main-list">
+              <label>
+                <input type="checkbox" name="grid" />
+                Grid layout
+              </label>
+              <label>
+                <input type="checkbox" name="relative-time" />
+                Relative time
+              </label>
+            </archive-activity-list-controls>
+            <theme-selector>
+              <button>
+                <span class="icon light">🌞 Light theme</span>
+                <span class="icon dark">🌚 Dark theme</span>
+              </button>
+            </theme-selector>
+          </section>
+        </details>
+        <archive-nav-search></archive-nav-search>
+      </section>
+    </archive-nav>
+
+    <archive-main>
+      <lazy-load-observer>
+        <formatted-time-context>
+          <media-lightbox-context>
+            
+  <archive-activity-list id="main-list" data-pagefind-body data-pagefind-meta="title:2024/10/30">
+    <archive-activity-list-contents>
+      
+        <archive-activity id="24b8cc53b43bc39c1ecb6d3cd376bacbcb3289af0a9c52d2d5555cc53cdbc03d">
+  <div class="header">
+    <h3 class="published" id="anchor-24b8cc53b43bc39c1ecb6d3cd376bacbcb3289af0a9c52d2d5555cc53cdbc03d"><a href="https:&#x2F;&#x2F;hackers.town&#x2F;@lmorchard&#x2F;113393453100865738" target="_blank"><time is="formatted-time" data-pagefind-meta="title" datetime="2024-10-30T00:06:21.934Z" title="2024-10-30T00:06:21.934Z">2024-10-30T00:06:21.934Z</time></a><a href="#anchor-24b8cc53b43bc39c1ecb6d3cd376bacbcb3289af0a9c52d2d5555cc53cdbc03d">#</a>
+    </h3>
+    <div class="title">Les Orchard</div>
+    <div class="subtitle">@<a href="https://hackers.town/@lmorchard" target="_blank">https:&#x2F;&#x2F;hackers.town&#x2F;@lmorchard</a></div>
+    <a class="avatar" href="https://hackers.town/@lmorchard" target="_blank"><img src="../../media/acc0bb231a7a2757c7e5c63aa68ce3cdbcfd32a43eb67a6bdedffe173c721184/avatar.png" width="48" height="48" /></a>
+  </div>
+  <div class="body">
+    <div class="text"><p>One of the weird(ish) things I'm trying with Pebbling Club is initially building it to run as a single node.js process with no other service dependencies. Really resisting the pull to rope in postgres or redis or anything.</p><p>That's feasible(ish) because node comes with SQLite and all kinds of other batteries included. And I can even do background tasks with p-queue and async/await.</p><p>I have a hunch that this thing could handle 100s of users before needing to scale horizontally. And I also have a hunch that a single process would make it easier to manage as a self-hosted thing. And even when it has to scale horizontally, I think there's some room for doing a stupid single-primary, many-replica sort of thing at first</p><p>And if it ever gets to a point where it needs to handle 1000s of users, it should be "easy" enough to swap out in-built parts for external services with some config and dependency injection. If I build it right, that is</p></div></div>
+</archive-activity>
+
+      
+        <archive-activity id="4b0bc703dea0c83d16add2a7348d857a83fd13b8885b0c4f4c70f930bc02ecdd">
+  <div class="header">
+    <h3 class="published" id="anchor-4b0bc703dea0c83d16add2a7348d857a83fd13b8885b0c4f4c70f930bc02ecdd"><a href="https:&#x2F;&#x2F;hackers.town&#x2F;@lmorchard&#x2F;113393473313590657" target="_blank"><time is="formatted-time" data-pagefind-meta="title" datetime="2024-10-30T00:11:30.355Z" title="2024-10-30T00:11:30.355Z">2024-10-30T00:11:30.355Z</time></a><a href="#anchor-4b0bc703dea0c83d16add2a7348d857a83fd13b8885b0c4f4c70f930bc02ecdd">#</a>
+    </h3>
+    <div class="title">Les Orchard</div>
+    <div class="subtitle">@<a href="https://hackers.town/@lmorchard" target="_blank">https:&#x2F;&#x2F;hackers.town&#x2F;@lmorchard</a></div>
+    <a class="avatar" href="https://hackers.town/@lmorchard" target="_blank"><img src="../../media/acc0bb231a7a2757c7e5c63aa68ce3cdbcfd32a43eb67a6bdedffe173c721184/avatar.png" width="48" height="48" /></a>
+  </div>
+  <div class="body">
+    <div class="text"><p>And i keep thinking "I'M DOING SOMETHING!" as I'm hacking away at this stuff. (This may only make sense in my own brain)</p><p><a href="https://www.youtube.com/watch?v=nED9h8QhuAc" target="_blank" rel="nofollow noopener noreferrer" translate="no"><span class="invisible">https://www.</span><span class="ellipsis">youtube.com/watch?v=nED9h8QhuA</span><span class="invisible">c</span></a></p></div></div>
+</archive-activity>
+
+      
+        <archive-activity id="de1ceddc4ee9c56eb9a39a5557df567b39a0688897b671ed4aad7a0a092f9f7e">
+  <div class="header">
+    <h3 class="published" id="anchor-de1ceddc4ee9c56eb9a39a5557df567b39a0688897b671ed4aad7a0a092f9f7e"><a href="https:&#x2F;&#x2F;hackers.town&#x2F;@lmorchard&#x2F;113393513923560956" target="_blank"><time is="formatted-time" data-pagefind-meta="title" datetime="2024-10-30T00:21:50.016Z" title="2024-10-30T00:21:50.016Z">2024-10-30T00:21:50.016Z</time></a><a href="#anchor-de1ceddc4ee9c56eb9a39a5557df567b39a0688897b671ed4aad7a0a092f9f7e">#</a>
+    </h3>
+    <div class="title">Les Orchard</div>
+    <div class="subtitle">@<a href="https://hackers.town/@lmorchard" target="_blank">https:&#x2F;&#x2F;hackers.town&#x2F;@lmorchard</a></div>
+    <a class="avatar" href="https://hackers.town/@lmorchard" target="_blank"><img src="../../media/acc0bb231a7a2757c7e5c63aa68ce3cdbcfd32a43eb67a6bdedffe173c721184/avatar.png" width="48" height="48" /></a>
+  </div>
+  <div class="body">
+    <div class="text"><p>@Mxzzyzx@gaygeek.social I finished SMT IV on Nintendo 3DS years ago. Started SMT V and Persona 5, but never finished either of those</p></div></div>
+</archive-activity>
+
+      
+        <archive-activity id="1f8e803872d85832dee8e41feffb924698dc8d372db2c0accb1d8e0152885a78">
+  <div class="header">
+    <h3 class="published" id="anchor-1f8e803872d85832dee8e41feffb924698dc8d372db2c0accb1d8e0152885a78"><a href="https:&#x2F;&#x2F;hackers.town&#x2F;@lmorchard&#x2F;113393536381342656" target="_blank"><time is="formatted-time" data-pagefind-meta="title" datetime="2024-10-30T00:27:32.694Z" title="2024-10-30T00:27:32.694Z">2024-10-30T00:27:32.694Z</time></a><a href="#anchor-1f8e803872d85832dee8e41feffb924698dc8d372db2c0accb1d8e0152885a78">#</a>
+    </h3>
+    <div class="title">Les Orchard</div>
+    <div class="subtitle">@<a href="https://hackers.town/@lmorchard" target="_blank">https:&#x2F;&#x2F;hackers.town&#x2F;@lmorchard</a></div>
+    <a class="avatar" href="https://hackers.town/@lmorchard" target="_blank"><img src="../../media/acc0bb231a7a2757c7e5c63aa68ce3cdbcfd32a43eb67a6bdedffe173c721184/avatar.png" width="48" height="48" /></a>
+  </div>
+  <div class="body">
+    <div class="text"><p><span class="h-card" translate="no"><a href="https://digipres.club/@Osmose" class="u-url mention" rel="nofollow noopener noreferrer" target="_blank">@<span>Osmose</span></a></span> maybe you can call in LLM? i don't know if that's like calling in sick or being replaced by an LLM or both</p></div></div>
+</archive-activity>
+
+      
+        <archive-activity id="92a6b443d0d01da3bf2859a85cd61df1edf04c0e6fea970524bd42602f21c517">
+  <div class="header">
+    <h3 class="published" id="anchor-92a6b443d0d01da3bf2859a85cd61df1edf04c0e6fea970524bd42602f21c517"><a href="https:&#x2F;&#x2F;hackers.town&#x2F;@lmorchard&#x2F;113393847430764539" target="_blank"><time is="formatted-time" data-pagefind-meta="title" datetime="2024-10-30T01:46:38.932Z" title="2024-10-30T01:46:38.932Z">2024-10-30T01:46:38.932Z</time></a><a href="#anchor-92a6b443d0d01da3bf2859a85cd61df1edf04c0e6fea970524bd42602f21c517">#</a>
+    </h3>
+    <div class="title">Les Orchard</div>
+    <div class="subtitle">@<a href="https://hackers.town/@lmorchard" target="_blank">https:&#x2F;&#x2F;hackers.town&#x2F;@lmorchard</a></div>
+    <a class="avatar" href="https://hackers.town/@lmorchard" target="_blank"><img src="../../media/acc0bb231a7a2757c7e5c63aa68ce3cdbcfd32a43eb67a6bdedffe173c721184/avatar.png" width="48" height="48" /></a>
+  </div>
+  <div class="body">
+    <div class="text"><p>The girl and I voted, now hopefully they don’t burn our ballot drop box 😅 <a href="https://hackers.town/tags/pdx" class="mention hashtag" rel="tag">#<span>pdx</span></a></p></div></div>
+</archive-activity>
+
+      
+        <archive-activity id="ecda531e232edde442e661db09697c4f43daa131455e383af83db2ec2710af7d">
+  <div class="header">
+    <h3 class="published" id="anchor-ecda531e232edde442e661db09697c4f43daa131455e383af83db2ec2710af7d"><a href="https:&#x2F;&#x2F;hackers.town&#x2F;@lmorchard&#x2F;113394067226300636" target="_blank"><time is="formatted-time" data-pagefind-meta="title" datetime="2024-10-30T02:42:32.746Z" title="2024-10-30T02:42:32.746Z">2024-10-30T02:42:32.746Z</time></a><a href="#anchor-ecda531e232edde442e661db09697c4f43daa131455e383af83db2ec2710af7d">#</a>
+    </h3>
+    <div class="title">Les Orchard</div>
+    <div class="subtitle">@<a href="https://hackers.town/@lmorchard" target="_blank">https:&#x2F;&#x2F;hackers.town&#x2F;@lmorchard</a></div>
+    <a class="avatar" href="https://hackers.town/@lmorchard" target="_blank"><img src="../../media/acc0bb231a7a2757c7e5c63aa68ce3cdbcfd32a43eb67a6bdedffe173c721184/avatar.png" width="48" height="48" /></a>
+  </div>
+  <div class="body">
+    <div class="text"><p><span class="h-card" translate="no"><a href="https://dan.mastohon.com/@danhon" class="u-url mention" rel="nofollow noopener noreferrer" target="_blank">@<span>danhon</span></a></span> That's the real value metric</p></div></div>
+</archive-activity>
+
+      
+        <archive-activity id="aecc887d7aa0127ffedb50d610d2d4c11389c331eaacbf35421894dfc12530a2">
+  <div class="header">
+    <h3 class="published" id="anchor-aecc887d7aa0127ffedb50d610d2d4c11389c331eaacbf35421894dfc12530a2"><a href="https:&#x2F;&#x2F;hackers.town&#x2F;@lmorchard&#x2F;113394210831660365" target="_blank"><time is="formatted-time" data-pagefind-meta="title" datetime="2024-10-30T03:19:03.989Z" title="2024-10-30T03:19:03.989Z">2024-10-30T03:19:03.989Z</time></a><a href="#anchor-aecc887d7aa0127ffedb50d610d2d4c11389c331eaacbf35421894dfc12530a2">#</a>
+    </h3>
+    <div class="title">Les Orchard</div>
+    <div class="subtitle">@<a href="https://hackers.town/@lmorchard" target="_blank">https:&#x2F;&#x2F;hackers.town&#x2F;@lmorchard</a></div>
+    <a class="avatar" href="https://hackers.town/@lmorchard" target="_blank"><img src="../../media/acc0bb231a7a2757c7e5c63aa68ce3cdbcfd32a43eb67a6bdedffe173c721184/avatar.png" width="48" height="48" /></a>
+  </div>
+  <div class="body">
+    <div class="text"><p>Oooof... Why do I keep thinking of Freezepop as "that new band"?</p><p><a href="https://www.freezepop.net/product/25th-anniversary/" target="_blank" rel="nofollow noopener noreferrer" translate="no"><span class="invisible">https://www.</span><span class="ellipsis">freezepop.net/product/25th-ann</span><span class="invisible">iversary/</span></a></p></div></div>
+</archive-activity>
+
+      
+        <archive-activity id="0b1407fe4070e0b65523ac6aa3ecfa4def5c97a752d98da25ce6cb6f041b3872">
+  <div class="header">
+    <h3 class="published" id="anchor-0b1407fe4070e0b65523ac6aa3ecfa4def5c97a752d98da25ce6cb6f041b3872"><a href="https:&#x2F;&#x2F;hackers.town&#x2F;@lmorchard&#x2F;113394305477506797" target="_blank"><time is="formatted-time" data-pagefind-meta="title" datetime="2024-10-30T03:43:08.170Z" title="2024-10-30T03:43:08.170Z">2024-10-30T03:43:08.170Z</time></a><a href="#anchor-0b1407fe4070e0b65523ac6aa3ecfa4def5c97a752d98da25ce6cb6f041b3872">#</a>
+    </h3>
+    <div class="title">Les Orchard</div>
+    <div class="subtitle">@<a href="https://hackers.town/@lmorchard" target="_blank">https:&#x2F;&#x2F;hackers.town&#x2F;@lmorchard</a></div>
+    <a class="avatar" href="https://hackers.town/@lmorchard" target="_blank"><img src="../../media/acc0bb231a7a2757c7e5c63aa68ce3cdbcfd32a43eb67a6bdedffe173c721184/avatar.png" width="48" height="48" /></a>
+  </div>
+  <div class="body">
+    <div class="text"><p>Another night of cozy couch computing with Cheddars and Catsby. Really helps that I don’t have to move much with this trackball <a href="https://hackers.town/tags/cats" class="mention hashtag" rel="tag">#<span>cats</span></a></p></div><media-lightbox-list><media-lightbox-item>
+            <a href="../../media/acc0bb231a7a2757c7e5c63aa68ce3cdbcfd32a43eb67a6bdedffe173c721184//system/media_attachments/files/113/394/300/775/067/634/original/ab94a52aafed559f.jpeg" title="" target="_blank"><img class="lazy-load" data-src="../../media/acc0bb231a7a2757c7e5c63aa68ce3cdbcfd32a43eb67a6bdedffe173c721184//system/media_attachments/files/113/394/300/775/067/634/original/ab94a52aafed559f.jpeg" /></a>
+          </media-lightbox-item></media-lightbox-list></div>
+</archive-activity>
+
+      
+        <archive-activity id="c8007d8bb060212df850f1f3618162a8fa6e03e1a71fb84b1bbec5cab88587f8">
+  <div class="header">
+    <h3 class="published" id="anchor-c8007d8bb060212df850f1f3618162a8fa6e03e1a71fb84b1bbec5cab88587f8"><a href="https:&#x2F;&#x2F;hackers.town&#x2F;@lmorchard&#x2F;113394343194870760" target="_blank"><time is="formatted-time" data-pagefind-meta="title" datetime="2024-10-30T03:52:43.691Z" title="2024-10-30T03:52:43.691Z">2024-10-30T03:52:43.691Z</time></a><a href="#anchor-c8007d8bb060212df850f1f3618162a8fa6e03e1a71fb84b1bbec5cab88587f8">#</a>
+    </h3>
+    <div class="title">Les Orchard</div>
+    <div class="subtitle">@<a href="https://hackers.town/@lmorchard" target="_blank">https:&#x2F;&#x2F;hackers.town&#x2F;@lmorchard</a></div>
+    <a class="avatar" href="https://hackers.town/@lmorchard" target="_blank"><img src="../../media/acc0bb231a7a2757c7e5c63aa68ce3cdbcfd32a43eb67a6bdedffe173c721184/avatar.png" width="48" height="48" /></a>
+  </div>
+  <div class="body">
+    <div class="text"><div class="summary">re: travelogue</div><p><span class="h-card" translate="no"><a href="https://occult.institute/@maya" class="u-url mention" rel="nofollow noopener noreferrer" target="_blank">@<span>maya</span></a></span> ohhh, it's been awhile since we made it there, need to go back and fill up on vodka and little dumplings</p></div></div>
+</archive-activity>
+
+      
+        <archive-activity id="ad408ecd2ff827ed09148bd1b4b00bcd097739a160824de8156fc97df5c86ea2">
+  <div class="header">
+    <h3 class="published" id="anchor-ad408ecd2ff827ed09148bd1b4b00bcd097739a160824de8156fc97df5c86ea2"><a href="https:&#x2F;&#x2F;hackers.town&#x2F;@lmorchard&#x2F;113397134148836570" target="_blank"><time is="formatted-time" data-pagefind-meta="title" datetime="2024-10-30T15:42:30.270Z" title="2024-10-30T15:42:30.270Z">2024-10-30T15:42:30.270Z</time></a><a href="#anchor-ad408ecd2ff827ed09148bd1b4b00bcd097739a160824de8156fc97df5c86ea2">#</a>
+    </h3>
+    <div class="title">Les Orchard</div>
+    <div class="subtitle">@<a href="https://hackers.town/@lmorchard" target="_blank">https:&#x2F;&#x2F;hackers.town&#x2F;@lmorchard</a></div>
+    <a class="avatar" href="https://hackers.town/@lmorchard" target="_blank"><img src="../../media/acc0bb231a7a2757c7e5c63aa68ce3cdbcfd32a43eb67a6bdedffe173c721184/avatar.png" width="48" height="48" /></a>
+  </div>
+  <div class="body">
+    <div class="text"><p><span class="h-card" translate="no"><a href="https://twipped.social/@twipped" class="u-url mention" rel="nofollow noopener noreferrer" target="_blank">@<span>twipped</span></a></span> Well, as far as I understand it, you also at least need an endpoint to handle POSTs to collect follow requests. That could be done with a very light edge function, though</p></div></div>
+</archive-activity>
+
+      
+        <archive-activity id="ebb8a2345e0b596421c3cb04596f897275d940632d9c99b239d2467b83ae8a7c">
+  <div class="header">
+    <h3 class="published" id="anchor-ebb8a2345e0b596421c3cb04596f897275d940632d9c99b239d2467b83ae8a7c"><a href="https:&#x2F;&#x2F;hackers.town&#x2F;@lmorchard&#x2F;113397516716677967" target="_blank"><time is="formatted-time" data-pagefind-meta="title" datetime="2024-10-30T17:19:47.791Z" title="2024-10-30T17:19:47.791Z">2024-10-30T17:19:47.791Z</time></a><a href="#anchor-ebb8a2345e0b596421c3cb04596f897275d940632d9c99b239d2467b83ae8a7c">#</a>
+    </h3>
+    <div class="title">Les Orchard</div>
+    <div class="subtitle">@<a href="https://hackers.town/@lmorchard" target="_blank">https:&#x2F;&#x2F;hackers.town&#x2F;@lmorchard</a></div>
+    <a class="avatar" href="https://hackers.town/@lmorchard" target="_blank"><img src="../../media/acc0bb231a7a2757c7e5c63aa68ce3cdbcfd32a43eb67a6bdedffe173c721184/avatar.png" width="48" height="48" /></a>
+  </div>
+  <div class="body">
+    <div class="text"><p>oh no, do i need to learn elixir now?</p></div></div>
+</archive-activity>
+
+      
+        <archive-activity id="e84d5ad17d90ab487664321f3cd997cdbe5b8a448c398337289a267ef075e838">
+  <div class="header">
+    <h3 class="published" id="anchor-e84d5ad17d90ab487664321f3cd997cdbe5b8a448c398337289a267ef075e838"><a href="https:&#x2F;&#x2F;hackers.town&#x2F;@lmorchard&#x2F;113398725770239315" target="_blank"><time is="formatted-time" data-pagefind-meta="title" datetime="2024-10-30T22:27:16.483Z" title="2024-10-30T22:27:16.483Z">2024-10-30T22:27:16.483Z</time></a><a href="#anchor-e84d5ad17d90ab487664321f3cd997cdbe5b8a448c398337289a267ef075e838">#</a>
+    </h3>
+    <div class="title">Les Orchard</div>
+    <div class="subtitle">@<a href="https://hackers.town/@lmorchard" target="_blank">https:&#x2F;&#x2F;hackers.town&#x2F;@lmorchard</a></div>
+    <a class="avatar" href="https://hackers.town/@lmorchard" target="_blank"><img src="../../media/acc0bb231a7a2757c7e5c63aa68ce3cdbcfd32a43eb67a6bdedffe173c721184/avatar.png" width="48" height="48" /></a>
+  </div>
+  <div class="body">
+    <div class="text"><p>I feel like we need many, many more non-verbal UX designers in the world. Give me more buttons. Give me fewer things to talk to. For crying out loud (except not)</p><p><a href="https://techcrunch.com/2024/10/30/rivians-chief-software-officer-says-in-car-buttons-are-an-anomaly/?utm_source=FuckOff&amp;utm_medium=FuckOff" target="_blank" rel="nofollow noopener noreferrer" translate="no"><span class="invisible">https://</span><span class="ellipsis">techcrunch.com/2024/10/30/rivi</span><span class="invisible">ans-chief-software-officer-says-in-car-buttons-are-an-anomaly/?utm_source=FuckOff&amp;utm_medium=FuckOff</span></a></p></div></div>
+</archive-activity>
+
+      
+        <archive-activity id="962c713553c2504448b04eb77e6c41f2ae0056ab57ec323b6f8df63000eab0bc">
+  <div class="header">
+    <h3 class="published" id="anchor-962c713553c2504448b04eb77e6c41f2ae0056ab57ec323b6f8df63000eab0bc"><a href="https:&#x2F;&#x2F;hackers.town&#x2F;@lmorchard&#x2F;113398763923483894" target="_blank"><time is="formatted-time" data-pagefind-meta="title" datetime="2024-10-30T22:36:58.656Z" title="2024-10-30T22:36:58.656Z">2024-10-30T22:36:58.656Z</time></a><a href="#anchor-962c713553c2504448b04eb77e6c41f2ae0056ab57ec323b6f8df63000eab0bc">#</a>
+    </h3>
+    <div class="title">Les Orchard</div>
+    <div class="subtitle">@<a href="https://hackers.town/@lmorchard" target="_blank">https:&#x2F;&#x2F;hackers.town&#x2F;@lmorchard</a></div>
+    <a class="avatar" href="https://hackers.town/@lmorchard" target="_blank"><img src="../../media/acc0bb231a7a2757c7e5c63aa68ce3cdbcfd32a43eb67a6bdedffe173c721184/avatar.png" width="48" height="48" /></a>
+  </div>
+  <div class="body">
+    <div class="text"><p>Maybe I can make a tactile interface that issues silent voice commands over an audio cable to a chatbot system and then translate its responses back to knob &amp; slider movement.</p></div></div>
+</archive-activity>
+
+      
+        <archive-activity id="d142f16b5856195b13a9a7cc734eefabc198624d02576bca25ef6b41e48deb40">
+  <div class="header">
+    <h3 class="published" id="anchor-d142f16b5856195b13a9a7cc734eefabc198624d02576bca25ef6b41e48deb40"><a href="https:&#x2F;&#x2F;hackers.town&#x2F;@lmorchard&#x2F;113398767019877667" target="_blank"><time is="formatted-time" data-pagefind-meta="title" datetime="2024-10-30T22:37:45.901Z" title="2024-10-30T22:37:45.901Z">2024-10-30T22:37:45.901Z</time></a><a href="#anchor-d142f16b5856195b13a9a7cc734eefabc198624d02576bca25ef6b41e48deb40">#</a>
+    </h3>
+    <div class="title">Les Orchard</div>
+    <div class="subtitle">@<a href="https://hackers.town/@lmorchard" target="_blank">https:&#x2F;&#x2F;hackers.town&#x2F;@lmorchard</a></div>
+    <a class="avatar" href="https://hackers.town/@lmorchard" target="_blank"><img src="../../media/acc0bb231a7a2757c7e5c63aa68ce3cdbcfd32a43eb67a6bdedffe173c721184/avatar.png" width="48" height="48" /></a>
+  </div>
+  <div class="body">
+    <div class="text"><p>Kinda like when they made Java classes to abstract away 3270 green screen mainframe interfaces so they could pretend those were just database connections</p></div></div>
+</archive-activity>
+
+      
+    </archive-activity-list-contents>
+    
+      <archive-activity-list-next-page>
+        <a class="lazy-load auto-click"
+            href="../../2024/10/31.html"
+            title="2024&#x2F;10&#x2F;31">
+          2024&#x2F;10&#x2F;31
+        </a>
+      </archive-activity-list-next-page>
+    
+  </archive-activity-list>
+
+          </media-lightbox-context>
+        </formatted-time-context>
+      </lazy-load-observer>
+    </archive-main>
+
+  </body>
+</html>
